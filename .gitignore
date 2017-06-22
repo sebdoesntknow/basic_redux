@@ -1,6 +1,6 @@
 yarn.lock
 
 # Compiled index.js
-index.js
+./index.js
 
 node_modules/

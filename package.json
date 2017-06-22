@@ -1,0 +1,18 @@
+{
+  "name": "basic_redux",
+  "version": "1.0.0",
+  "description": "A very basic implementation of Redux",
+  "main": "index.js",
+  "repository": "https://github.com/sebdoesntknow/basic_redux.git",
+  "author": "MrCricket",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^4.0.0"
+  },
+  "scripts": {
+    "build": "babel ./src/index.js -o ./index.js --no-comments"
+  }
+}

@@ -25,7 +25,6 @@ function subscribe(callback) {
 }
 
 function dispatch(action) {
-  console.log('Action dispatched!');
   var newState = reducer(state, action);
 
   if (state !== newState) {
